@@ -1,0 +1,80 @@
+[
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "ci4r_asl",
+  "split": "test",
+  "fold": null,
+  "seed": 0,
+  "acc": 0.978,
+  "f1": 0.964,
+  "precision": 0.964,
+  "recall": 0.965,
+  "timestamp": "2026-08-20 00:57:53,177"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "ci4r_asl",
+  "split": "test",
+  "fold": null,
+  "seed": 1,
+  "acc": 0.969,
+  "f1": 0.951,
+  "precision": 0.952,
+  "recall": 0.951,
+  "timestamp": "2026-08-20 00:57:56,546"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "ci4r_asl",
+  "split": "test",
+  "fold": null,
+  "seed": 2,
+  "acc": 0.965,
+  "f1": 0.945,
+  "precision": 0.945,
+  "recall": 0.946,
+  "timestamp": "2026-08-20 00:58:22,184"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcg",
+  "benchmark": "ci4r_asl",
+  "split": "test",
+  "fold": null,
+  "seed": 0,
+  "acc": 0.968,
+  "f1": 0.947,
+  "precision": 0.948,
+  "recall": 0.947,
+  "timestamp": "2026-08-20 14:15:37,672"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcg",
+  "benchmark": "ci4r_asl",
+  "split": "test",
+  "fold": null,
+  "seed": 1,
+  "acc": 0.964,
+  "f1": 0.942,
+  "precision": 0.944,
+  "recall": 0.942,
+  "timestamp": "2026-08-20 14:15:38,425"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcg",
+  "benchmark": "ci4r_asl",
+  "split": "test",
+  "fold": null,
+  "seed": 2,
+  "acc": 0.968,
+  "f1": 0.948,
+  "precision": 0.948,
+  "recall": 0.949,
+  "timestamp": "2026-08-20 14:15:47,409"
+ }
+]

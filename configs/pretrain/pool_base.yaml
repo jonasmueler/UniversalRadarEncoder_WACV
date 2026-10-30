@@ -1,0 +1,81 @@
+# Fully resolved pretraining recipe shared by every encoder in the paper.
+# The pool leaves (pool_*.yaml) only set dataset.sources, dataset.mixture_weights
+# and training.checkpoint_dir on top of this file.
+#
+# Data roots are passed on the command line (see scripts/pretrain.sh):
+#   --dataset.root <mmRadPose root> --dataset.cubelearn_root <activity_organized>
+#   --dataset.cubelearn_hgr_root <hand_organized> --dataset.cubelearn_agr_root <arm_organized>
+#   --dataset.ci4r_root <CI4R-ASL train store> --dataset.multi3_root <CI4R-Gait train store>
+
+dataset:
+  name: mmradpose
+  root: ~/data/mmRadPose_rawdata
+  axes: [D, A, E, R]
+  # Common index grid: Doppler x azimuth x elevation x range.
+  dims: [128, 4, 4, 256]
+  apply_fft: true
+  clutter_removal: true
+  format_mode: iq            # two real input channels (I, Q)
+  target_range_bins: 256     # spectral interpolation of the range axis to 256 bins
+  normalize_magnitude: true
+  # mmRadPose participant-disjoint split. The VAE sees p4-p11 (train) and p3 (val);
+  # p1, p2, p12 are never staged.
+  participants_train: [p4, p5, p6, p7, p8, p9, p10, p11]
+  participants_val: [p3]
+  participants_test: [p1, p2, p12]
+  angles: null
+  # CubeLearn: users 0-5 and the release's train/val sample ids (splits/cubelearn),
+  # fixed in frozenradar/data/splits.py. HAR files hold 20 frames; HGR/AGR hold 10.
+  cubelearn_task: har
+  cubelearn_frames_per_recording: 20
+  # CI4R-ASL / CI4R-Gait: train stores built by scripts/prepare_ci4r_*.sh from the
+  # shipped manifests; the stores physically contain no benchmark val/test unit.
+  ci4r_frames_per_recording: null
+  multi3_frames_per_recording: null
+
+model:
+  encoder_type: hrnet_multi_phase
+  latent_dim: 256
+  hrnet_config: hr_tiny_feat64_zyx_l4_in64
+  n_input_channels: 2
+  phase_transformer_dim: 1024
+  phase_transformer_heads: 8
+  phase_transformer_layers: 2
+  multi_decoder_hidden: 256
+  multi_projection_weights: null
+  projection_set: null       # all six projections: (D,R) (A,R) (E,R) (D,A) (A,E) (D,E)
+  reconstruction_target: projections
+  backbone_type: hrnet
+  doppler_gate: false
+  doppler_se: false
+
+compression:
+  target_ratio: 0.5          # unused when latent_dim is set explicitly
+
+training:
+  epochs: 50
+  batch_size: 16
+  # Frames drawn per epoch by the source-balanced sampler. Pinned for every pool
+  # so all encoders receive identical optimisation steps regardless of pool size.
+  steps_per_epoch: 169000
+  lr: 3.0e-4
+  weight_decay: 0.01
+  beta: 0.1
+  beta_warmup_epochs: 5
+  loss_type: mse
+  n_decoder_samples: 128
+  nll_gamma: 1.0
+  lr_scheduler: cosine
+  grad_clip_norm: 1.0
+  seed: 42
+  device: cuda
+  resume: ""
+  log_every_n_steps: 20
+  val_every_n_epochs: 5
+  num_workers: 4
+
+wandb:
+  enabled: false
+  project: frozenradar
+  entity: null
+  run_name: null

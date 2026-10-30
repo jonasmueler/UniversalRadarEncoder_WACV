@@ -1,0 +1,3278 @@
+{
+  "dataset": "multi3",
+  "protocol": {
+    "test_size": 0.2,
+    "val_size": 0.1,
+    "seed": 1,
+    "split_unit": "recording"
+  },
+  "n_units": 652,
+  "order_digest": "a8d6e1becf5193ac",
+  "counts": {
+    "train": 457,
+    "val": 65,
+    "test": 130
+  },
+  "entries": [
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696114",
+      "base": "04000000_1574696114",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696136",
+      "base": "04000000_1574696136",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696159",
+      "base": "04000000_1574696159",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696180",
+      "base": "04000000_1574696180",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696201",
+      "base": "04000000_1574696201",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696222",
+      "base": "04000000_1574696222",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696243",
+      "base": "04000000_1574696243",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696261",
+      "base": "04000000_1574696261",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696280",
+      "base": "04000000_1574696280",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04000000_1574696308",
+      "base": "04000000_1574696308",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573836822",
+      "base": "04050010_1573836822",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573836864",
+      "base": "04050010_1573836864",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573836889",
+      "base": "04050010_1573836889",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573836925",
+      "base": "04050010_1573836925",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573836957",
+      "base": "04050010_1573836957",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573836980",
+      "base": "04050010_1573836980",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573837002",
+      "base": "04050010_1573837002",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573837024",
+      "base": "04050010_1573837024",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573837045",
+      "base": "04050010_1573837045",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050010_1573837067",
+      "base": "04050010_1573837067",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114240",
+      "base": "04050029_1574114240",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114268",
+      "base": "04050029_1574114268",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114294",
+      "base": "04050029_1574114294",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114447",
+      "base": "04050029_1574114447",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114529",
+      "base": "04050029_1574114529",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114550",
+      "base": "04050029_1574114550",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114569",
+      "base": "04050029_1574114569",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114588",
+      "base": "04050029_1574114588",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114606",
+      "base": "04050029_1574114606",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574114625",
+      "base": "04050029_1574114625",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626039",
+      "base": "04050029_1574626039",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626078",
+      "base": "04050029_1574626078",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626109",
+      "base": "04050029_1574626109",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626164",
+      "base": "04050029_1574626164",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626188",
+      "base": "04050029_1574626188",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626210",
+      "base": "04050029_1574626210",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626307",
+      "base": "04050029_1574626307",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626331",
+      "base": "04050029_1574626331",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626372",
+      "base": "04050029_1574626372",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050029_1574626392",
+      "base": "04050029_1574626392",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574193843",
+      "base": "04050030_1574193843",
+      "split": "val"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574193880",
+      "base": "04050030_1574193880",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574193902",
+      "base": "04050030_1574193902",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574193925",
+      "base": "04050030_1574193925",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574193946",
+      "base": "04050030_1574193946",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574193984",
+      "base": "04050030_1574193984",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574194013",
+      "base": "04050030_1574194013",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574194043",
+      "base": "04050030_1574194043",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574194068",
+      "base": "04050030_1574194068",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574194145",
+      "base": "04050030_1574194145",
+      "split": "test"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456596",
+      "base": "04050030_1574456596",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456646",
+      "base": "04050030_1574456646",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456705",
+      "base": "04050030_1574456705",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456747",
+      "base": "04050030_1574456747",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456771",
+      "base": "04050030_1574456771",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456812",
+      "base": "04050030_1574456812",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456837",
+      "base": "04050030_1574456837",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456859",
+      "base": "04050030_1574456859",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456884",
+      "base": "04050030_1574456884",
+      "split": "train"
+    },
+    {
+      "key": "05_Walking_Towards_radar/04050030_1574456906",
+      "base": "04050030_1574456906",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837114",
+      "base": "04060010_1573837114",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837135",
+      "base": "04060010_1573837135",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837157",
+      "base": "04060010_1573837157",
+      "split": "val"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837181",
+      "base": "04060010_1573837181",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837204",
+      "base": "04060010_1573837204",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837254",
+      "base": "04060010_1573837254",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837276",
+      "base": "04060010_1573837276",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837305",
+      "base": "04060010_1573837305",
+      "split": "val"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837370",
+      "base": "04060010_1573837370",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060010_1573837392",
+      "base": "04060010_1573837392",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696344",
+      "base": "04060014_1574696344",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696370",
+      "base": "04060014_1574696370",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696394",
+      "base": "04060014_1574696394",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696413",
+      "base": "04060014_1574696413",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696433",
+      "base": "04060014_1574696433",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696452",
+      "base": "04060014_1574696452",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696470",
+      "base": "04060014_1574696470",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060014_1574696490",
+      "base": "04060014_1574696490",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114705",
+      "base": "04060029_1574114705",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114725",
+      "base": "04060029_1574114725",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114751",
+      "base": "04060029_1574114751",
+      "split": "val"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114770",
+      "base": "04060029_1574114770",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114789",
+      "base": "04060029_1574114789",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114809",
+      "base": "04060029_1574114809",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114829",
+      "base": "04060029_1574114829",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114849",
+      "base": "04060029_1574114849",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574114867",
+      "base": "04060029_1574114867",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574115098",
+      "base": "04060029_1574115098",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574626448",
+      "base": "04060029_1574626448",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574626614",
+      "base": "04060029_1574626614",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574626687",
+      "base": "04060029_1574626687",
+      "split": "val"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574626995",
+      "base": "04060029_1574626995",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574627039",
+      "base": "04060029_1574627039",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574627068",
+      "base": "04060029_1574627068",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574627087",
+      "base": "04060029_1574627087",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574627128",
+      "base": "04060029_1574627128",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574627154",
+      "base": "04060029_1574627154",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060029_1574627273",
+      "base": "04060029_1574627273",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194179",
+      "base": "04060030_1574194179",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194202",
+      "base": "04060030_1574194202",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194225",
+      "base": "04060030_1574194225",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194249",
+      "base": "04060030_1574194249",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194275",
+      "base": "04060030_1574194275",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194298",
+      "base": "04060030_1574194298",
+      "split": "val"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194323",
+      "base": "04060030_1574194323",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194345",
+      "base": "04060030_1574194345",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194369",
+      "base": "04060030_1574194369",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574194391",
+      "base": "04060030_1574194391",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574456948",
+      "base": "04060030_1574456948",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574456969",
+      "base": "04060030_1574456969",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574456989",
+      "base": "04060030_1574456989",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574457011",
+      "base": "04060030_1574457011",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574457032",
+      "base": "04060030_1574457032",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574457052",
+      "base": "04060030_1574457052",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574457074",
+      "base": "04060030_1574457074",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574457095",
+      "base": "04060030_1574457095",
+      "split": "train"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574457116",
+      "base": "04060030_1574457116",
+      "split": "test"
+    },
+    {
+      "key": "06_walking_away_from_Radar/04060030_1574457136",
+      "base": "04060030_1574457136",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837435",
+      "base": "04070010_1573837435",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837456",
+      "base": "04070010_1573837456",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837478",
+      "base": "04070010_1573837478",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837502",
+      "base": "04070010_1573837502",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837531",
+      "base": "04070010_1573837531",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837550",
+      "base": "04070010_1573837550",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837573",
+      "base": "04070010_1573837573",
+      "split": "val"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837593",
+      "base": "04070010_1573837593",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837622",
+      "base": "04070010_1573837622",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070010_1573837641",
+      "base": "04070010_1573837641",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696535",
+      "base": "04070014_1574696535",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696560",
+      "base": "04070014_1574696560",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696589",
+      "base": "04070014_1574696589",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696618",
+      "base": "04070014_1574696618",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696638",
+      "base": "04070014_1574696638",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696667",
+      "base": "04070014_1574696667",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696688",
+      "base": "04070014_1574696688",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696706",
+      "base": "04070014_1574696706",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070014_1574696727",
+      "base": "04070014_1574696727",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115138",
+      "base": "04070029_1574115138",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115158",
+      "base": "04070029_1574115158",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115178",
+      "base": "04070029_1574115178",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115196",
+      "base": "04070029_1574115196",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115220",
+      "base": "04070029_1574115220",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115244",
+      "base": "04070029_1574115244",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115263",
+      "base": "04070029_1574115263",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115281",
+      "base": "04070029_1574115281",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115300",
+      "base": "04070029_1574115300",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574115399",
+      "base": "04070029_1574115399",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627323",
+      "base": "04070029_1574627323",
+      "split": "val"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627347",
+      "base": "04070029_1574627347",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627368",
+      "base": "04070029_1574627368",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627388",
+      "base": "04070029_1574627388",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627633",
+      "base": "04070029_1574627633",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627654",
+      "base": "04070029_1574627654",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627704",
+      "base": "04070029_1574627704",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627723",
+      "base": "04070029_1574627723",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627743",
+      "base": "04070029_1574627743",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070029_1574627762",
+      "base": "04070029_1574627762",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574194424",
+      "base": "04070030_1574194424",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574194444",
+      "base": "04070030_1574194444",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574194468",
+      "base": "04070030_1574194468",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574194488",
+      "base": "04070030_1574194488",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574194508",
+      "base": "04070030_1574194508",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574194528",
+      "base": "04070030_1574194528",
+      "split": "val"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574194547",
+      "base": "04070030_1574194547",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457169",
+      "base": "04070030_1574457169",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457190",
+      "base": "04070030_1574457190",
+      "split": "test"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457212",
+      "base": "04070030_1574457212",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457231",
+      "base": "04070030_1574457231",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457253",
+      "base": "04070030_1574457253",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457274",
+      "base": "04070030_1574457274",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457294",
+      "base": "04070030_1574457294",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457315",
+      "base": "04070030_1574457315",
+      "split": "train"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457335",
+      "base": "04070030_1574457335",
+      "split": "val"
+    },
+    {
+      "key": "07_Picking_up_an_object/04070030_1574457946",
+      "base": "04070030_1574457946",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080010_1573837689",
+      "base": "04080010_1573837689",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080010_1573837709",
+      "base": "04080010_1573837709",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080010_1573837729",
+      "base": "04080010_1573837729",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080010_1573837748",
+      "base": "04080010_1573837748",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080010_1573837767",
+      "base": "04080010_1573837767",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080010_1573837785",
+      "base": "04080010_1573837785",
+      "split": "val"
+    },
+    {
+      "key": "08_Bending/04080010_1573837803",
+      "base": "04080010_1573837803",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080010_1573837822",
+      "base": "04080010_1573837822",
+      "split": "val"
+    },
+    {
+      "key": "08_Bending/04080010_1573837916",
+      "base": "04080010_1573837916",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080010_1573837944",
+      "base": "04080010_1573837944",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080014_1574696766",
+      "base": "04080014_1574696766",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080014_1574696801",
+      "base": "04080014_1574696801",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080014_1574696820",
+      "base": "04080014_1574696820",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080014_1574696838",
+      "base": "04080014_1574696838",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080014_1574696856",
+      "base": "04080014_1574696856",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080014_1574696876",
+      "base": "04080014_1574696876",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080014_1574696894",
+      "base": "04080014_1574696894",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080014_1574696914",
+      "base": "04080014_1574696914",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080014_1574696941",
+      "base": "04080014_1574696941",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574115435",
+      "base": "04080029_1574115435",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574115463",
+      "base": "04080029_1574115463",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574115481",
+      "base": "04080029_1574115481",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080029_1574115504",
+      "base": "04080029_1574115504",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574115523",
+      "base": "04080029_1574115523",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080029_1574115541",
+      "base": "04080029_1574115541",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574115561",
+      "base": "04080029_1574115561",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574115580",
+      "base": "04080029_1574115580",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574115601",
+      "base": "04080029_1574115601",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080029_1574115619",
+      "base": "04080029_1574115619",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574627793",
+      "base": "04080029_1574627793",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574627811",
+      "base": "04080029_1574627811",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574627830",
+      "base": "04080029_1574627830",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574627935",
+      "base": "04080029_1574627935",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574627955",
+      "base": "04080029_1574627955",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574627986",
+      "base": "04080029_1574627986",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574628005",
+      "base": "04080029_1574628005",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574628024",
+      "base": "04080029_1574628024",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574628042",
+      "base": "04080029_1574628042",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080029_1574628060",
+      "base": "04080029_1574628060",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574194651",
+      "base": "04080030_1574194651",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574194672",
+      "base": "04080030_1574194672",
+      "split": "val"
+    },
+    {
+      "key": "08_Bending/04080030_1574194692",
+      "base": "04080030_1574194692",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574194941",
+      "base": "04080030_1574194941",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574194962",
+      "base": "04080030_1574194962",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574194982",
+      "base": "04080030_1574194982",
+      "split": "val"
+    },
+    {
+      "key": "08_Bending/04080030_1574195000",
+      "base": "04080030_1574195000",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574195019",
+      "base": "04080030_1574195019",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574195038",
+      "base": "04080030_1574195038",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574195059",
+      "base": "04080030_1574195059",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574457972",
+      "base": "04080030_1574457972",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080030_1574457991",
+      "base": "04080030_1574457991",
+      "split": "test"
+    },
+    {
+      "key": "08_Bending/04080030_1574458011",
+      "base": "04080030_1574458011",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574458043",
+      "base": "04080030_1574458043",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574458060",
+      "base": "04080030_1574458060",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574458078",
+      "base": "04080030_1574458078",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574458096",
+      "base": "04080030_1574458096",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574458114",
+      "base": "04080030_1574458114",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574458139",
+      "base": "04080030_1574458139",
+      "split": "train"
+    },
+    {
+      "key": "08_Bending/04080030_1574458157",
+      "base": "04080030_1574458157",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573837974",
+      "base": "04090010_1573837974",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573837993",
+      "base": "04090010_1573837993",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838030",
+      "base": "04090010_1573838030",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838066",
+      "base": "04090010_1573838066",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838086",
+      "base": "04090010_1573838086",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838127",
+      "base": "04090010_1573838127",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838157",
+      "base": "04090010_1573838157",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838182",
+      "base": "04090010_1573838182",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838201",
+      "base": "04090010_1573838201",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090010_1573838334",
+      "base": "04090010_1573838334",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090014_1574696977",
+      "base": "04090014_1574696977",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090014_1574696998",
+      "base": "04090014_1574696998",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697018",
+      "base": "04090014_1574697018",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697038",
+      "base": "04090014_1574697038",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697850",
+      "base": "04090014_1574697850",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697897",
+      "base": "04090014_1574697897",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697917",
+      "base": "04090014_1574697917",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697936",
+      "base": "04090014_1574697936",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697955",
+      "base": "04090014_1574697955",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697974",
+      "base": "04090014_1574697974",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090014_1574697993",
+      "base": "04090014_1574697993",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115666",
+      "base": "04090029_1574115666",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115686",
+      "base": "04090029_1574115686",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115706",
+      "base": "04090029_1574115706",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115726",
+      "base": "04090029_1574115726",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115745",
+      "base": "04090029_1574115745",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115764",
+      "base": "04090029_1574115764",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115784",
+      "base": "04090029_1574115784",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115803",
+      "base": "04090029_1574115803",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115823",
+      "base": "04090029_1574115823",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090029_1574115842",
+      "base": "04090029_1574115842",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628100",
+      "base": "04090029_1574628100",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628120",
+      "base": "04090029_1574628120",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628141",
+      "base": "04090029_1574628141",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628160",
+      "base": "04090029_1574628160",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628180",
+      "base": "04090029_1574628180",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628246",
+      "base": "04090029_1574628246",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628309",
+      "base": "04090029_1574628309",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628343",
+      "base": "04090029_1574628343",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628440",
+      "base": "04090029_1574628440",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090029_1574628461",
+      "base": "04090029_1574628461",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195230",
+      "base": "04090030_1574195230",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195254",
+      "base": "04090030_1574195254",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195274",
+      "base": "04090030_1574195274",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195293",
+      "base": "04090030_1574195293",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195313",
+      "base": "04090030_1574195313",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195332",
+      "base": "04090030_1574195332",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195351",
+      "base": "04090030_1574195351",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195371",
+      "base": "04090030_1574195371",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574195391",
+      "base": "04090030_1574195391",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458188",
+      "base": "04090030_1574458188",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458207",
+      "base": "04090030_1574458207",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458226",
+      "base": "04090030_1574458226",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458245",
+      "base": "04090030_1574458245",
+      "split": "val"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458265",
+      "base": "04090030_1574458265",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458283",
+      "base": "04090030_1574458283",
+      "split": "train"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458785",
+      "base": "04090030_1574458785",
+      "split": "test"
+    },
+    {
+      "key": "09_Sitting/04090030_1574458803",
+      "base": "04090030_1574458803",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838384",
+      "base": "04100010_1573838384",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838410",
+      "base": "04100010_1573838410",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838430",
+      "base": "04100010_1573838430",
+      "split": "val"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838448",
+      "base": "04100010_1573838448",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838467",
+      "base": "04100010_1573838467",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838489",
+      "base": "04100010_1573838489",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838508",
+      "base": "04100010_1573838508",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838526",
+      "base": "04100010_1573838526",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838544",
+      "base": "04100010_1573838544",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838564",
+      "base": "04100010_1573838564",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838584",
+      "base": "04100010_1573838584",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100010_1573838603",
+      "base": "04100010_1573838603",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698031",
+      "base": "04100014_1574698031",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698067",
+      "base": "04100014_1574698067",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698089",
+      "base": "04100014_1574698089",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698108",
+      "base": "04100014_1574698108",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698127",
+      "base": "04100014_1574698127",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698146",
+      "base": "04100014_1574698146",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698165",
+      "base": "04100014_1574698165",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698185",
+      "base": "04100014_1574698185",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698203",
+      "base": "04100014_1574698203",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100014_1574698222",
+      "base": "04100014_1574698222",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574115915",
+      "base": "04100029_1574115915",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574115983",
+      "base": "04100029_1574115983",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116001",
+      "base": "04100029_1574116001",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116027",
+      "base": "04100029_1574116027",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116046",
+      "base": "04100029_1574116046",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116064",
+      "base": "04100029_1574116064",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116083",
+      "base": "04100029_1574116083",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116103",
+      "base": "04100029_1574116103",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116122",
+      "base": "04100029_1574116122",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574116141",
+      "base": "04100029_1574116141",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628484",
+      "base": "04100029_1574628484",
+      "split": "val"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628503",
+      "base": "04100029_1574628503",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628522",
+      "base": "04100029_1574628522",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628541",
+      "base": "04100029_1574628541",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628560",
+      "base": "04100029_1574628560",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628579",
+      "base": "04100029_1574628579",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628598",
+      "base": "04100029_1574628598",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628616",
+      "base": "04100029_1574628616",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628634",
+      "base": "04100029_1574628634",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100029_1574628652",
+      "base": "04100029_1574628652",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195423",
+      "base": "04100030_1574195423",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195442",
+      "base": "04100030_1574195442",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195462",
+      "base": "04100030_1574195462",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195482",
+      "base": "04100030_1574195482",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195502",
+      "base": "04100030_1574195502",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195520",
+      "base": "04100030_1574195520",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195539",
+      "base": "04100030_1574195539",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195557",
+      "base": "04100030_1574195557",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195802",
+      "base": "04100030_1574195802",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574195822",
+      "base": "04100030_1574195822",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458850",
+      "base": "04100030_1574458850",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458866",
+      "base": "04100030_1574458866",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458884",
+      "base": "04100030_1574458884",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458902",
+      "base": "04100030_1574458902",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458920",
+      "base": "04100030_1574458920",
+      "split": "val"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458938",
+      "base": "04100030_1574458938",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458956",
+      "base": "04100030_1574458956",
+      "split": "train"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458974",
+      "base": "04100030_1574458974",
+      "split": "test"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574458991",
+      "base": "04100030_1574458991",
+      "split": "val"
+    },
+    {
+      "key": "10_Kneeling/04100030_1574459016",
+      "base": "04100030_1574459016",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838681",
+      "base": "04110010_1573838681",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838702",
+      "base": "04110010_1573838702",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838722",
+      "base": "04110010_1573838722",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838744",
+      "base": "04110010_1573838744",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838764",
+      "base": "04110010_1573838764",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838789",
+      "base": "04110010_1573838789",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838810",
+      "base": "04110010_1573838810",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838834",
+      "base": "04110010_1573838834",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838880",
+      "base": "04110010_1573838880",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838901",
+      "base": "04110010_1573838901",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838921",
+      "base": "04110010_1573838921",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110010_1573838941",
+      "base": "04110010_1573838941",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698309",
+      "base": "04110014_1574698309",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698343",
+      "base": "04110014_1574698343",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698362",
+      "base": "04110014_1574698362",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698381",
+      "base": "04110014_1574698381",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698400",
+      "base": "04110014_1574698400",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698419",
+      "base": "04110014_1574698419",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698452",
+      "base": "04110014_1574698452",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698473",
+      "base": "04110014_1574698473",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110014_1574698497",
+      "base": "04110014_1574698497",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116213",
+      "base": "04110029_1574116213",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116251",
+      "base": "04110029_1574116251",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116271",
+      "base": "04110029_1574116271",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116293",
+      "base": "04110029_1574116293",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116313",
+      "base": "04110029_1574116313",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116331",
+      "base": "04110029_1574116331",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116351",
+      "base": "04110029_1574116351",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116372",
+      "base": "04110029_1574116372",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116394",
+      "base": "04110029_1574116394",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574116414",
+      "base": "04110029_1574116414",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628699",
+      "base": "04110029_1574628699",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628718",
+      "base": "04110029_1574628718",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628738",
+      "base": "04110029_1574628738",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628757",
+      "base": "04110029_1574628757",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628776",
+      "base": "04110029_1574628776",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628795",
+      "base": "04110029_1574628795",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628814",
+      "base": "04110029_1574628814",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628831",
+      "base": "04110029_1574628831",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628905",
+      "base": "04110029_1574628905",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110029_1574628925",
+      "base": "04110029_1574628925",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574195847",
+      "base": "04110030_1574195847",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110030_1574195873",
+      "base": "04110030_1574195873",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110030_1574195896",
+      "base": "04110030_1574195896",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110030_1574195919",
+      "base": "04110030_1574195919",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574195945",
+      "base": "04110030_1574195945",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574195969",
+      "base": "04110030_1574195969",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574196190",
+      "base": "04110030_1574196190",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574196216",
+      "base": "04110030_1574196216",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574196240",
+      "base": "04110030_1574196240",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574196264",
+      "base": "04110030_1574196264",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459058",
+      "base": "04110030_1574459058",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459079",
+      "base": "04110030_1574459079",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459101",
+      "base": "04110030_1574459101",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459121",
+      "base": "04110030_1574459121",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459140",
+      "base": "04110030_1574459140",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459159",
+      "base": "04110030_1574459159",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459184",
+      "base": "04110030_1574459184",
+      "split": "val"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459204",
+      "base": "04110030_1574459204",
+      "split": "test"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459225",
+      "base": "04110030_1574459225",
+      "split": "train"
+    },
+    {
+      "key": "11_Crawling/04110030_1574459245",
+      "base": "04110030_1574459245",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116516",
+      "base": "04150029_1574116516",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116537",
+      "base": "04150029_1574116537",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116554",
+      "base": "04150029_1574116554",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116574",
+      "base": "04150029_1574116574",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116594",
+      "base": "04150029_1574116594",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116614",
+      "base": "04150029_1574116614",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116634",
+      "base": "04150029_1574116634",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116654",
+      "base": "04150029_1574116654",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116673",
+      "base": "04150029_1574116673",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04150029_1574116694",
+      "base": "04150029_1574116694",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839138",
+      "base": "04160010_1573839138",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839168",
+      "base": "04160010_1573839168",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839195",
+      "base": "04160010_1573839195",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839227",
+      "base": "04160010_1573839227",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839260",
+      "base": "04160010_1573839260",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839279",
+      "base": "04160010_1573839279",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839298",
+      "base": "04160010_1573839298",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839319",
+      "base": "04160010_1573839319",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839338",
+      "base": "04160010_1573839338",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839358",
+      "base": "04160010_1573839358",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160010_1573839379",
+      "base": "04160010_1573839379",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160014_1574698531",
+      "base": "04160014_1574698531",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160014_1574698555",
+      "base": "04160014_1574698555",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160014_1574698576",
+      "base": "04160014_1574698576",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160014_1574698597",
+      "base": "04160014_1574698597",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160014_1574698617",
+      "base": "04160014_1574698617",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160014_1574698638",
+      "base": "04160014_1574698638",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160014_1574698659",
+      "base": "04160014_1574698659",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574628954",
+      "base": "04160029_1574628954",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574628973",
+      "base": "04160029_1574628973",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574628992",
+      "base": "04160029_1574628992",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574629010",
+      "base": "04160029_1574629010",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574629029",
+      "base": "04160029_1574629029",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574629048",
+      "base": "04160029_1574629048",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574629067",
+      "base": "04160029_1574629067",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574629087",
+      "base": "04160029_1574629087",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574629105",
+      "base": "04160029_1574629105",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160029_1574629137",
+      "base": "04160029_1574629137",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196386",
+      "base": "04160030_1574196386",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196407",
+      "base": "04160030_1574196407",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196432",
+      "base": "04160030_1574196432",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196452",
+      "base": "04160030_1574196452",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196472",
+      "base": "04160030_1574196472",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196492",
+      "base": "04160030_1574196492",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196510",
+      "base": "04160030_1574196510",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196530",
+      "base": "04160030_1574196530",
+      "split": "val"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196549",
+      "base": "04160030_1574196549",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574196569",
+      "base": "04160030_1574196569",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459307",
+      "base": "04160030_1574459307",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459325",
+      "base": "04160030_1574459325",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459344",
+      "base": "04160030_1574459344",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459362",
+      "base": "04160030_1574459362",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459380",
+      "base": "04160030_1574459380",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459399",
+      "base": "04160030_1574459399",
+      "split": "test"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459417",
+      "base": "04160030_1574459417",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459436",
+      "base": "04160030_1574459436",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459454",
+      "base": "04160030_1574459454",
+      "split": "train"
+    },
+    {
+      "key": "16_Walking_on_both_toes/04160030_1574459473",
+      "base": "04160030_1574459473",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840004",
+      "base": "04170010_1573840004",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840029",
+      "base": "04170010_1573840029",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840050",
+      "base": "04170010_1573840050",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840071",
+      "base": "04170010_1573840071",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840091",
+      "base": "04170010_1573840091",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840110",
+      "base": "04170010_1573840110",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840130",
+      "base": "04170010_1573840130",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840150",
+      "base": "04170010_1573840150",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840168",
+      "base": "04170010_1573840168",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840188",
+      "base": "04170010_1573840188",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170010_1573840212",
+      "base": "04170010_1573840212",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574698881",
+      "base": "04170014_1574698881",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574698907",
+      "base": "04170014_1574698907",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574698926",
+      "base": "04170014_1574698926",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574698947",
+      "base": "04170014_1574698947",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574698967",
+      "base": "04170014_1574698967",
+      "split": "val"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574698987",
+      "base": "04170014_1574698987",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574699007",
+      "base": "04170014_1574699007",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574699027",
+      "base": "04170014_1574699027",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170014_1574699047",
+      "base": "04170014_1574699047",
+      "split": "val"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574116735",
+      "base": "04170029_1574116735",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117066",
+      "base": "04170029_1574117066",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117087",
+      "base": "04170029_1574117087",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117345",
+      "base": "04170029_1574117345",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117365",
+      "base": "04170029_1574117365",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117385",
+      "base": "04170029_1574117385",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117403",
+      "base": "04170029_1574117403",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117423",
+      "base": "04170029_1574117423",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117446",
+      "base": "04170029_1574117446",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574117465",
+      "base": "04170029_1574117465",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629161",
+      "base": "04170029_1574629161",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629180",
+      "base": "04170029_1574629180",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629197",
+      "base": "04170029_1574629197",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629215",
+      "base": "04170029_1574629215",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629233",
+      "base": "04170029_1574629233",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629251",
+      "base": "04170029_1574629251",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629298",
+      "base": "04170029_1574629298",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629318",
+      "base": "04170029_1574629318",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629335",
+      "base": "04170029_1574629335",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170029_1574629354",
+      "base": "04170029_1574629354",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196601",
+      "base": "04170030_1574196601",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196649",
+      "base": "04170030_1574196649",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196669",
+      "base": "04170030_1574196669",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196688",
+      "base": "04170030_1574196688",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196709",
+      "base": "04170030_1574196709",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196730",
+      "base": "04170030_1574196730",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196750",
+      "base": "04170030_1574196750",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196770",
+      "base": "04170030_1574196770",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196790",
+      "base": "04170030_1574196790",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574196811",
+      "base": "04170030_1574196811",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459511",
+      "base": "04170030_1574459511",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459528",
+      "base": "04170030_1574459528",
+      "split": "val"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459546",
+      "base": "04170030_1574459546",
+      "split": "test"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459566",
+      "base": "04170030_1574459566",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459585",
+      "base": "04170030_1574459585",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459602",
+      "base": "04170030_1574459602",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459620",
+      "base": "04170030_1574459620",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459638",
+      "base": "04170030_1574459638",
+      "split": "train"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574459656",
+      "base": "04170030_1574459656",
+      "split": "val"
+    },
+    {
+      "key": "17_limping_with_RL_Stiff/04170030_1574460109",
+      "base": "04170030_1574460109",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840267",
+      "base": "04180010_1573840267",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840288",
+      "base": "04180010_1573840288",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840308",
+      "base": "04180010_1573840308",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840335",
+      "base": "04180010_1573840335",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840358",
+      "base": "04180010_1573840358",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840377",
+      "base": "04180010_1573840377",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840396",
+      "base": "04180010_1573840396",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840416",
+      "base": "04180010_1573840416",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840458",
+      "base": "04180010_1573840458",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180010_1573840477",
+      "base": "04180010_1573840477",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699070",
+      "base": "04180014_1574699070",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699108",
+      "base": "04180014_1574699108",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699126",
+      "base": "04180014_1574699126",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699146",
+      "base": "04180014_1574699146",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699165",
+      "base": "04180014_1574699165",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699191",
+      "base": "04180014_1574699191",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699211",
+      "base": "04180014_1574699211",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699230",
+      "base": "04180014_1574699230",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180014_1574699251",
+      "base": "04180014_1574699251",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117498",
+      "base": "04180029_1574117498",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117518",
+      "base": "04180029_1574117518",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117536",
+      "base": "04180029_1574117536",
+      "split": "val"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117555",
+      "base": "04180029_1574117555",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117573",
+      "base": "04180029_1574117573",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117591",
+      "base": "04180029_1574117591",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117609",
+      "base": "04180029_1574117609",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117627",
+      "base": "04180029_1574117627",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117647",
+      "base": "04180029_1574117647",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574117666",
+      "base": "04180029_1574117666",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629378",
+      "base": "04180029_1574629378",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629397",
+      "base": "04180029_1574629397",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629415",
+      "base": "04180029_1574629415",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629434",
+      "base": "04180029_1574629434",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629453",
+      "base": "04180029_1574629453",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629474",
+      "base": "04180029_1574629474",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629493",
+      "base": "04180029_1574629493",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629512",
+      "base": "04180029_1574629512",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629533",
+      "base": "04180029_1574629533",
+      "split": "val"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629552",
+      "base": "04180029_1574629552",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180029_1574629570",
+      "base": "04180029_1574629570",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196837",
+      "base": "04180030_1574196837",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196864",
+      "base": "04180030_1574196864",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196884",
+      "base": "04180030_1574196884",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196905",
+      "base": "04180030_1574196905",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196927",
+      "base": "04180030_1574196927",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196950",
+      "base": "04180030_1574196950",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196968",
+      "base": "04180030_1574196968",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574196992",
+      "base": "04180030_1574196992",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574197013",
+      "base": "04180030_1574197013",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574197034",
+      "base": "04180030_1574197034",
+      "split": "test"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460138",
+      "base": "04180030_1574460138",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460157",
+      "base": "04180030_1574460157",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460179",
+      "base": "04180030_1574460179",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460197",
+      "base": "04180030_1574460197",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460217",
+      "base": "04180030_1574460217",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460235",
+      "base": "04180030_1574460235",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460254",
+      "base": "04180030_1574460254",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460271",
+      "base": "04180030_1574460271",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460290",
+      "base": "04180030_1574460290",
+      "split": "train"
+    },
+    {
+      "key": "18_Short_steps/04180030_1574460680",
+      "base": "04180030_1574460680",
+      "split": "val"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840513",
+      "base": "04190010_1573840513",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840533",
+      "base": "04190010_1573840533",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840554",
+      "base": "04190010_1573840554",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840686",
+      "base": "04190010_1573840686",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840711",
+      "base": "04190010_1573840711",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840734",
+      "base": "04190010_1573840734",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840759",
+      "base": "04190010_1573840759",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840804",
+      "base": "04190010_1573840804",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840826",
+      "base": "04190010_1573840826",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190010_1573840846",
+      "base": "04190010_1573840846",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699279",
+      "base": "04190014_1574699279",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699303",
+      "base": "04190014_1574699303",
+      "split": "val"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699322",
+      "base": "04190014_1574699322",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699342",
+      "base": "04190014_1574699342",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699605",
+      "base": "04190014_1574699605",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699632",
+      "base": "04190014_1574699632",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699653",
+      "base": "04190014_1574699653",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699672",
+      "base": "04190014_1574699672",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699690",
+      "base": "04190014_1574699690",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190014_1574699712",
+      "base": "04190014_1574699712",
+      "split": "val"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117690",
+      "base": "04190029_1574117690",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117711",
+      "base": "04190029_1574117711",
+      "split": "val"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117729",
+      "base": "04190029_1574117729",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117746",
+      "base": "04190029_1574117746",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117765",
+      "base": "04190029_1574117765",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117784",
+      "base": "04190029_1574117784",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117803",
+      "base": "04190029_1574117803",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117823",
+      "base": "04190029_1574117823",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117842",
+      "base": "04190029_1574117842",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574117862",
+      "base": "04190029_1574117862",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629610",
+      "base": "04190029_1574629610",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629628",
+      "base": "04190029_1574629628",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629649",
+      "base": "04190029_1574629649",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629669",
+      "base": "04190029_1574629669",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629689",
+      "base": "04190029_1574629689",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629707",
+      "base": "04190029_1574629707",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629725",
+      "base": "04190029_1574629725",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629742",
+      "base": "04190029_1574629742",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629760",
+      "base": "04190029_1574629760",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190029_1574629779",
+      "base": "04190029_1574629779",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197059",
+      "base": "04190030_1574197059",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197080",
+      "base": "04190030_1574197080",
+      "split": "val"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197099",
+      "base": "04190030_1574197099",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197345",
+      "base": "04190030_1574197345",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197364",
+      "base": "04190030_1574197364",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197385",
+      "base": "04190030_1574197385",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197408",
+      "base": "04190030_1574197408",
+      "split": "val"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197430",
+      "base": "04190030_1574197430",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197451",
+      "base": "04190030_1574197451",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574197473",
+      "base": "04190030_1574197473",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460704",
+      "base": "04190030_1574460704",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460722",
+      "base": "04190030_1574460722",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460740",
+      "base": "04190030_1574460740",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460758",
+      "base": "04190030_1574460758",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460776",
+      "base": "04190030_1574460776",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460795",
+      "base": "04190030_1574460795",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460813",
+      "base": "04190030_1574460813",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460830",
+      "base": "04190030_1574460830",
+      "split": "test"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460848",
+      "base": "04190030_1574460848",
+      "split": "train"
+    },
+    {
+      "key": "19_Scissors_gait/04190030_1574460866",
+      "base": "04190030_1574460866",
+      "split": "train"
+    }
+  ]
+}

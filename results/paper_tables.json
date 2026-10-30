@@ -1,0 +1,496 @@
+{
+ "tab:cube_comparison": [
+  {
+   "model": "ours",
+   "variant": "pool_mcag",
+   "cells": [
+    {
+     "benchmark": "cubelearn_har",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.995,
+      0.006
+     ]
+    },
+    {
+     "benchmark": "cubelearn_har",
+     "split": "outofset",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.93,
+      0.034
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.98,
+      0.005
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.825,
+      0.005
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.996,
+      0.006
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.905,
+      0.008
+     ]
+    },
+    {
+     "benchmark": "cubelearn_har",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.995,
+      0.006
+     ]
+    },
+    {
+     "benchmark": "cubelearn_har",
+     "split": "outofset",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.928,
+      0.035
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.98,
+      0.005
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.812,
+      0.003
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.996,
+      0.006
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.904,
+      0.008
+     ]
+    }
+   ]
+  },
+  {
+   "model": "ours",
+   "variant": "pool_mag",
+   "cells": [
+    {
+     "benchmark": "cubelearn_har",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.992,
+      0.012
+     ]
+    },
+    {
+     "benchmark": "cubelearn_har",
+     "split": "outofset",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.877,
+      0.051
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.957,
+      0.006
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.784,
+      0.015
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.996,
+      0.003
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.956,
+      0.007
+     ]
+    },
+    {
+     "benchmark": "cubelearn_har",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.991,
+      0.013
+     ]
+    },
+    {
+     "benchmark": "cubelearn_har",
+     "split": "outofset",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.878,
+      0.051
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.957,
+      0.006
+     ]
+    },
+    {
+     "benchmark": "cubelearn_hgr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.777,
+      0.018
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.996,
+      0.003
+     ]
+    },
+    {
+     "benchmark": "cubelearn_agr",
+     "split": "outofset",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.956,
+      0.006
+     ]
+    }
+   ]
+  }
+ ],
+ "tab:mmrad_comparison": [
+  {
+   "model": "ours",
+   "variant": "pool_mcag",
+   "cells": [
+    {
+     "benchmark": "mmradpose",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.88,
+      0.077
+     ]
+    },
+    {
+     "benchmark": "mmradpose",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.87,
+      0.089
+     ]
+    }
+   ]
+  },
+  {
+   "model": "ours",
+   "variant": "pool_cag",
+   "cells": [
+    {
+     "benchmark": "mmradpose",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.877,
+      0.016
+     ]
+    },
+    {
+     "benchmark": "mmradpose",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.877,
+      0.016
+     ]
+    }
+   ]
+  }
+ ],
+ "tab:ci4r_comparison": [
+  {
+   "model": "ours",
+   "variant": "pool_mcag",
+   "cells": [
+    {
+     "benchmark": "ci4r_asl",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.971,
+      0.007
+     ]
+    },
+    {
+     "benchmark": "ci4r_asl",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.953,
+      0.01
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.951,
+      0.012
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.953,
+      0.011
+     ]
+    }
+   ]
+  },
+  {
+   "model": "ours",
+   "variant": "pool_mcg",
+   "cells": [
+    {
+     "benchmark": "ci4r_asl",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.967,
+      0.002
+     ]
+    },
+    {
+     "benchmark": "ci4r_asl",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.946,
+      0.003
+     ]
+    }
+   ]
+  },
+  {
+   "model": "ours",
+   "variant": "pool_mca",
+   "cells": [
+    {
+     "benchmark": "ci4r_gait",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.9,
+      0.02
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait",
+     "split": "test",
+     "fold": null,
+     "metric": "f1",
+     "paper": [
+      0.906,
+      0.015
+     ]
+    }
+   ]
+  }
+ ],
+ "tab:loso": [
+  {
+   "model": "ours",
+   "variant": "pool_mca",
+   "cells": [
+    {
+     "benchmark": "ci4r_gait_loso",
+     "split": "test",
+     "fold": "0010",
+     "metric": "acc",
+     "paper": [
+      0.635,
+      0.018
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait_loso",
+     "split": "test",
+     "fold": "0014",
+     "metric": "acc",
+     "paper": [
+      0.696,
+      0.034
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait_loso",
+     "split": "test",
+     "fold": "0029",
+     "metric": "acc",
+     "paper": [
+      0.679,
+      0.039
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait_loso",
+     "split": "test",
+     "fold": "0030",
+     "metric": "acc",
+     "paper": [
+      0.762,
+      0.005
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait_loso",
+     "split": "test",
+     "fold": "mean",
+     "metric": "acc",
+     "paper": [
+      0.693,
+      0.012
+     ]
+    },
+    {
+     "benchmark": "ci4r_gait_loso",
+     "split": "test",
+     "fold": "mean",
+     "metric": "f1",
+     "paper": [
+      0.666,
+      0.01
+     ]
+    }
+   ]
+  }
+ ],
+ "text:hearing_subset": [
+  {
+   "model": "ours",
+   "variant": "pool_mcag",
+   "cells": [
+    {
+     "benchmark": "ci4r_asl_hearing",
+     "split": "test",
+     "fold": null,
+     "metric": "acc",
+     "paper": [
+      0.982,
+      0.001
+     ]
+    }
+   ]
+  }
+ ]
+}

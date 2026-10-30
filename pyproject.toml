@@ -1,0 +1,48 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "frozenradar"
+version = "0.1.0"
+description = "A Universal Raw-IQ Radar Encoder for Cross-Sensor Human Sensing (WACV 2027): beta-VAE pretraining on raw radar IQ and frozen-encoder evaluation"
+authors = [
+    { name = "Jonas Mueller" }, { name = "Dario Zanca" }, { name = "Sebastian Hoefler" },
+    { name = "Jan Petermann" }, { name = "Thomas Altstidl" }, { name = "Naga Venkata Sai Jitin Jami" },
+    { name = "Emmanuelle Salin" }, { name = "Bjoern Eskofier" },
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "torch>=2.0",
+    "tqdm>=4.60",
+    "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+data = ["huggingface_hub"]
+weights = ["gdown>=5.0"]
+logging = ["wandb", "matplotlib"]
+dev = ["pytest>=7.0", "ruff"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["frozenradar"]
+
+[tool.ruff]
+target-version = "py310"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "W", "UP", "D", "ANN", "T20", "PLC0415"]
+ignore = ["ANN401", "D105", "D107"]
+
+[tool.ruff.lint.pydocstyle]
+convention = "google"
+
+[tool.ruff.lint.per-file-ignores]
+"frozenradar/models/hrnet_blocks.py" = ["E501"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

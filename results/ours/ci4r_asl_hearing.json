@@ -1,0 +1,41 @@
+[
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "ci4r_asl_hearing",
+  "split": "test",
+  "fold": null,
+  "seed": 0,
+  "acc": 0.982,
+  "f1": 0.969,
+  "precision": 0.97,
+  "recall": 0.969,
+  "timestamp": "2026-08-24 10:48:07,591"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "ci4r_asl_hearing",
+  "split": "test",
+  "fold": null,
+  "seed": 1,
+  "acc": 0.982,
+  "f1": 0.97,
+  "precision": 0.97,
+  "recall": 0.971,
+  "timestamp": "2026-08-24 10:48:09,300"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "ci4r_asl_hearing",
+  "split": "test",
+  "fold": null,
+  "seed": 2,
+  "acc": 0.983,
+  "f1": 0.972,
+  "precision": 0.972,
+  "recall": 0.972,
+  "timestamp": "2026-08-24 10:59:52,688"
+ }
+]

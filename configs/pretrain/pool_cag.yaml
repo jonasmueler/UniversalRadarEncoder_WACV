@@ -1,0 +1,12 @@
+# Leave-one-sensor-out: mmRadPose held out (CubeLearn + CI4R-ASL + CI4R-Gait).
+_base_: pool_base.yaml
+
+dataset:
+  sources: [cubelearn, cubelearn_hgr, cubelearn_agr, ci4r, multi3]
+  mixture_weights: [0.111111, 0.111111, 0.111111, 0.333333, 0.333334]
+
+training:
+  checkpoint_dir: runs/pool_cag
+
+wandb:
+  run_name: pool_cag

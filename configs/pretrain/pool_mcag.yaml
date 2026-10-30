@@ -1,0 +1,12 @@
+# All four sensors: mmRadPose + CubeLearn (HAR, HGR, AGR) + CI4R-ASL + CI4R-Gait. Final encoder. Each dataset gets an equal 1/4 share; CubeLearn's three tasks split its share.
+_base_: pool_base.yaml
+
+dataset:
+  sources: [mmradpose, cubelearn, cubelearn_hgr, cubelearn_agr, ci4r, multi3]
+  mixture_weights: [0.25, 0.083333, 0.083333, 0.083333, 0.25, 0.250001]
+
+training:
+  checkpoint_dir: runs/pool_mcag
+
+wandb:
+  run_name: pool_mcag
