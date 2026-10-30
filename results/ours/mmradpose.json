@@ -1,0 +1,80 @@
+[
+ {
+  "model": "ours",
+  "variant": "pool_cag",
+  "benchmark": "mmradpose",
+  "split": "test",
+  "fold": null,
+  "seed": 0,
+  "acc": 0.868,
+  "f1": 0.868,
+  "precision": 0.892,
+  "recall": 0.874,
+  "timestamp": "2026-08-20 11:21:49,256"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_cag",
+  "benchmark": "mmradpose",
+  "split": "test",
+  "fold": null,
+  "seed": 1,
+  "acc": 0.896,
+  "f1": 0.895,
+  "precision": 0.898,
+  "recall": 0.894,
+  "timestamp": "2026-08-20 11:21:49,257"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_cag",
+  "benchmark": "mmradpose",
+  "split": "test",
+  "fold": null,
+  "seed": 2,
+  "acc": 0.868,
+  "f1": 0.868,
+  "precision": 0.882,
+  "recall": 0.867,
+  "timestamp": "2026-08-20 11:22:19,317"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "mmradpose",
+  "split": "test",
+  "fold": null,
+  "seed": 0,
+  "acc": 0.934,
+  "f1": 0.93,
+  "precision": 0.938,
+  "recall": 0.934,
+  "timestamp": "2026-08-19 21:28:50,180"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "mmradpose",
+  "split": "test",
+  "fold": null,
+  "seed": 1,
+  "acc": 0.915,
+  "f1": 0.913,
+  "precision": 0.921,
+  "recall": 0.914,
+  "timestamp": "2026-08-19 22:17:21,262"
+ },
+ {
+  "model": "ours",
+  "variant": "pool_mcag",
+  "benchmark": "mmradpose",
+  "split": "test",
+  "fold": null,
+  "seed": 2,
+  "acc": 0.792,
+  "f1": 0.768,
+  "precision": 0.804,
+  "recall": 0.791,
+  "timestamp": "2026-08-19 23:34:09,559"
+ }
+]

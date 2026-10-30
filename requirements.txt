@@ -1,0 +1,9 @@
+numpy>=1.24
+torch>=2.0
+tqdm>=4.60
+pyyaml>=6.0
+# optional
+huggingface_hub   # CubeLearn download
+wandb             # only if --wandb.enabled true
+matplotlib        # only for W&B image logging
+pytest            # tests

@@ -1,0 +1,14 @@
+_base_: base.yaml
+
+dataset:
+  sequences_dir: cache/sequences_cubelearn
+  crop_ratio_min: 1.0
+  crop_ratio_max: 1.0
+  time_mask_ratio: 0.0
+
+model:
+  embed_dim: 1024
+  num_classes: 6
+
+training:
+  checkpoint_dir: runs/classification_cubelearn

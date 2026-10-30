@@ -1,0 +1,36 @@
+dataset:
+  data_root: ~/data/mmRadPose_rawdata
+  sequences_dir: cache/sequences
+  crop_ratio_min: 0.9
+  crop_ratio_max: 1.0
+  time_mask_ratio: 0.1
+
+model:
+  embed_dim: 256
+  temporal_layers: 1
+  max_seq_len: 1024
+  num_heads: 8
+  ff_ratio: 4.0
+  dropout: 0.3
+  num_classes: 12
+
+training:
+  epochs: 500
+  lr: 1.0e-4
+  final_lr: 1.0e-6
+  warmup_epochs: 5
+  weight_decay: 0.05
+  batch_size: 16
+  num_workers: 4
+  use_bfloat16: true
+  grad_clip_norm: 1.0
+  label_smoothing: 0.1
+  seed: 42
+  device: cuda
+  checkpoint_dir: runs/classification
+  log_every_n_steps: 20
+  val_every_n_epochs: 1
+
+wandb:
+  enabled: false
+  project: vae-activity-classification
