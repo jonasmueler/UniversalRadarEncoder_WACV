@@ -29,14 +29,18 @@ All commands are run from the repository root.
 ```bash
 git clone https://github.com/jonasmueler/UniversalRadarEncoder_WACV.git
 cd UniversalRadarEncoder_WACV
-python -m venv .venv && source .venv/bin/activate
+python3.12 -m venv .venv && source .venv/bin/activate
+pip install -r requirements.txt   # exact versions of the paper runs
 pip install -e ".[data,weights,dev]"
 python -m pytest tests          # CPU only, a few seconds, no data needed
 ```
 
-Python 3.10 or newer and PyTorch 2 with CUDA. Pretraining needs one GPU with at least 40 GB of
-memory (batch 16 on the full grid); the heads train on cached embeddings and run on any CUDA GPU.
-`pip install -e ".[logging]"` adds Weights & Biases logging.
+The paper numbers were produced with Python 3.12, PyTorch 2.11.0 (CUDA 13.0 build) and cuDNN 9.19;
+`requirements.txt` pins every package of those runs. The code also runs with Python 3.10 or newer
+and any PyTorch 2 with CUDA, but other versions change the embeddings slightly, and the per-seed
+scores can then differ from the paper by several points. Pretraining needs one GPU with at least
+40 GB of memory (batch 16 on the full grid); the heads train on cached embeddings and run on any
+CUDA GPU. `pip install -e ".[logging]"` adds Weights & Biases logging.
 
 ## 2. Check the paper numbers in one minute
 
